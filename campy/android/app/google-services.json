@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "453014263599",
+    "project_id": "campy-cf10f",
+    "storage_bucket": "campy-cf10f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453014263599:android:e8d36b4d0367121d8473da",
+        "android_client_info": {
+          "package_name": "com.campy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453014263599-4337tm8vj421e88cse5s9smem9d0ujg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.campy",
+            "certificate_hash": "ed66c6389329724200232df6c3339b17e8c9aa78"
+          }
+        },
+        {
+          "client_id": "453014263599-23t0ic7smmq85g4cog7c97b4m854097q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPlZbzE1iq_nWIxBjYoNSRElfAz-xisZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453014263599-23t0ic7smmq85g4cog7c97b4m854097q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "453014263599-h2qmaa9gce8utiuob6ukk433ddumb3hq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.campy.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

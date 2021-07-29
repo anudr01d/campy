@@ -19,10 +19,6 @@ const AnalyticsScreen = ({navigation}) => {
     <>
       <CustomHeader screenName="Analytics" navigation={navigation} /> 
       <View style={styles.container}>
-        <Text style={styles.text}>Analytics</Text>
-        <TouchableOpacity style={styles.button} onPress={() => handleLogout()}>
-          <Text style={styles.buttonText}>{string.logout.toUpperCase()}</Text>
-        </TouchableOpacity>
       </View>
     </>
   );

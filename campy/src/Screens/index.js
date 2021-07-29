@@ -4,6 +4,7 @@ import VoterDataScreen from './VoterDataScreen';
 import AnalyticsScreen from './AnalyticsScreen';
 import OutreachScreen from './OutreachScreen';
 import ContactScreen from './ContactScreen';
+import AddEditVoterScreen from './AddEditVoterScreen';
 
 export {
   LoginScreen,
@@ -12,4 +13,5 @@ export {
   AnalyticsScreen,
   OutreachScreen,
   ContactScreen,
+  AddEditVoterScreen,
 };

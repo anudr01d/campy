@@ -29,6 +29,17 @@ export const styles = StyleSheet.create({
     fontSize: scale(16),
     fontWeight: 'bold',
   },
+  textInput: {
+    height: 50,
+    margin: 12,
+    borderWidth: 1,
+    borderColor: colors.dimBlack,
+    borderRadius: 3,
+    padding: 10,
+    color: colors.black,
+    fontSize: 18,
+    backgroundColor: colors.white
+  },
   textNormal: {
     color: colors.dimBlack,
     fontSize: scale(17),
@@ -59,17 +70,6 @@ export const styles = StyleSheet.create({
     alignSelf: 'center',
     marginBottom: 10
   },
-  gobutton: {
-    paddingVertical: moderateScale(15),
-    alignItems: 'center',
-    fontSize: 16,
-    alignSelf: 'center',
-    marginBottom: 10,
-    backgroundColor: "coral",
-    minWidth: "13%",
-    textAlign: "center",
-    borderRadius: 3
-  },
   buttonText: {
     color: colors.white,
     fontWeight: 'bold',
@@ -90,21 +90,21 @@ export const styles = StyleSheet.create({
     padding: 10,
     color: colors.black,
     fontSize: 18,
-    backgroundColor: colors.white,
-    minWidth: "80%",
+    backgroundColor: colors.white
   },
   details: {
     backgroundColor: colors.white,
     flex: 1,
     borderColor: colors.dimBlack,
     borderWidth: 1,
+    marginTop: 10,
     marginLeft: 10,
     marginBottom: 20,
     marginEnd: 10
   },
   row: {
-    flexDirection: "row",
-    flexWrap: "wrap",
+    flex: 1,
+    flexDirection: "row"
   },
   inputWrap: {
     flex: 1,
