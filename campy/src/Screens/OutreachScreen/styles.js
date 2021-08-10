@@ -13,9 +13,12 @@ export const styles = StyleSheet.create({
     backgroundColor: colors.white,
   },
   text: {
-    color: colors.black,
-    fontSize: scale(30),
+    color: colors.dimBlack,
+    fontSize: scale(22),
     fontWeight: 'bold',
+    marginLeft: 12,
+    marginTop: 12,
+    marginEnd: 12
   },
   button: {
     paddingVertical: moderateScale(10),
@@ -29,5 +32,16 @@ export const styles = StyleSheet.create({
   buttonText: {
     color: colors.white,
     fontWeight: 'bold',
+  },
+  input: {
+    margin: 12,
+    borderWidth: 1,
+    borderColor: colors.dimBlack,
+    borderRadius: 3,
+    padding: 10,
+    color: colors.black,
+    fontSize: 18,
+    backgroundColor: colors.white,
+    textAlignVertical: "top"
   },
 });

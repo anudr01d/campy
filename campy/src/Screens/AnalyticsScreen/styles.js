@@ -12,6 +12,24 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: colors.white,
   },
+  sectionTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: colors.dimBlack,
+  },
+  card: {
+    height: 200,
+    width: '95%',
+    backgroundColor: '#FFF',
+    //justifyContent: 'center', //Centered vertically
+    //alignItems: 'center', // Centered horizontally
+  },
+  cardText: {
+    color: colors.darkGrey,
+    fontSize: 20,
+    margin: 5,
+    minWidth: '30%'
+  },
   text: {
     color: colors.black,
     fontSize: scale(30),
@@ -29,5 +47,9 @@ export const styles = StyleSheet.create({
   buttonText: {
     color: colors.white,
     fontWeight: 'bold',
+  },
+  row: {
+    flexDirection: "row",
+    flexWrap: "wrap"
   },
 });
